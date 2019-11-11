@@ -1,0 +1,126 @@
+.kotak-biru {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: solid 4px #24b7db;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 7px;
+}
+.kotak-merah {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: solid 4px #cf2929;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 7px;
+}
+.kotak-kuning {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-bottom: solid 4px #ffd700;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 7px;
+}
+.indicator-status {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    right: 10px;
+}
+.softcircle {
+    margin: 4px;
+}
+@media only screen and (max-width: 767px) {
+    .kotak-biru {
+        background-color: white;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        border-bottom: solid 4px #24b7db;
+        border-radius: 5px;
+        margin: 5px;
+        padding-top: 10px;
+    }
+    .kotak-merah {
+        background-color: white;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        border-bottom: solid 4px #cf2929;
+        border-radius: 5px;
+        margin: 5px;
+        padding-top: 10px;
+    }
+    .kotak-kuning {
+        background-color: white;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        border-bottom: solid 4px #ffd700;
+        border-radius: 5px;
+        margin: 5px;
+        padding-top: 10px;
+    }
+}
+
+.btn-tambahSiramin {
+    position: fixed;
+    width: 40px;
+    z-index: 100;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    background-color: #cf2929;
+    color: white !important;
+    border-radius: 40px;
+    bottom: 60px;
+    right: 20px;
+}
+.fiturPerData {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .btn-tambahSiramin, .fiturPerData {
+        bottom: 80px;
+    }
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+#hapus {
+    background-color: #cf2929;
+}
+#edit {
+    background-color: #29cf31;
+}
+.d-flex button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    margin: 0px 5px;
+    height: 40px;
+}
+
+.inputKu {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #24b7db;
+    font-size: 14px;
+}
+.labelKu {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buttonKu {
+    border: none;
+    background-color: #24b7db;
+    padding: 6px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
